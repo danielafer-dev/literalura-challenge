@@ -18,16 +18,7 @@ Base de Datos: Usa JPA para que sea muy fácil guardar y leer la información de
 
 Lectura de datos (JSON): Uso unas herramientas llamadas "Records" y anotaciones de Jackson para que el programa entienda la información que nos manda la web de libros.
 
-Ejemplo de cómo se ve en la pantalla
-Cuando buscas un libro y el programa lo encuentra, te muestra un resumen así:
 
-
----------- LIBRO ----------
-Título: El Principito
-Autor: Antoine de Saint-Exupéry
-Idioma: Español
-Descargas: 5000
----------------------------
 Cómo usarlo
 Revisa que tu base de datos esté conectada en el archivo application.properties.
 
